@@ -1,0 +1,25 @@
+name = "Alex"
+if name == "Alex":
+    print("Ah oui! Je me souviens de toi!")
+else:
+  print("Qui es-tu?")
+
+
+name = "Siham"
+if name == "Siham":
+    print("Bonjour Siham")
+elif name == "Julie":
+      print("Salut Julie")
+else:
+    print("Qui es-tu?")
+
+
+def my_name():
+    print("Je suis Alex!")
+my_name()
+
+
+def getHello():
+    return "Hello tout le monde"
+message = getHello
+print(message)
